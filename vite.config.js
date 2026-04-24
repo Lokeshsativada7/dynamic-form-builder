@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'fetch("https://your-backend.onrender.com/api/submit")',
+        target: 'fetch("https://your-backend.onrender.com/api/form/submit")',
         changeOrigin: true,
       }
     }
