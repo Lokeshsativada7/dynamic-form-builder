@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'fetch("https://your-backend.onrender.com/api/submit")',
         changeOrigin: true,
       }
     }
