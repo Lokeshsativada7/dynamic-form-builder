@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\Dynamic\.npmrc
+5 silly config load:file:C:\Users\lokes\.npmrc
+6 silly config load:file:C:\Users\lokesh\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create vite@latest . --template react --yes
+8 verbose argv "--cache" "./npm-cache" "create" "vite@latest" "." "--" "--template" "react" "--yes"
+9 verbose logfile logs-max:10 dir:C:\projects\Dynamic\npm-cache\_logs\2026-04-21T12_23_48_942Z-
+10 verbose logfile C:\projects\Dynamic\npm-cache\_logs\2026-04-21T12_23_48_942Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET 200 https://registry.npmjs.org/npm 150ms
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 857ms (cache miss)
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 warn exec The following package was not found and will be installed: create-vite@9.0.5
+17 silly idealTree buildDeps
+18 silly fetch manifest create-vite@9.0.5
+19 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-vite 38ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+22 silly placeDep ROOT create-vite@9.0.5 OK for:  want: 9.0.5
+23 silly reify moves {}
+24 silly audit bulk request { 'create-vite': [ '9.0.5' ] }
+25 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-9.0.5.tgz. Extracting by manifest.
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 246ms
+27 silly audit report {}
+28 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-9.0.5.tgz 334ms (cache miss)
+29 verbose cwd C:\projects\Dynamic
+30 verbose os Windows_NT 10.0.26200
+31 verbose node v20.20.2
+32 verbose npm  v10.8.2
+33 notice
+33 notice New major version of npm available! 10.8.2 -> 11.12.1
+33 notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1
+33 notice To update run: npm install -g npm@11.12.1
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 0
+35 info ok

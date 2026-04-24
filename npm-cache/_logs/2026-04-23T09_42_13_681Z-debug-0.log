@@ -1,0 +1,490 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.2
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\Dynamic\.npmrc
+5 silly config load:file:C:\Users\lokes\.npmrc
+6 silly config load:file:C:\Users\lokesh\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @hello-pangea/dnd
+8 verbose argv "install" "@hello-pangea/dnd" "--cache" "./npm-cache"
+9 verbose logfile logs-max:10 dir:C:\projects\Dynamic\npm-cache\_logs\2026-04-23T09_42_13_681Z-
+10 verbose logfile C:\projects\Dynamic\npm-cache\_logs\2026-04-23T09_42_13_681Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @hello-pangea/dnd@*
+15 silly packumentCache full:https://registry.npmjs.org/@hello-pangea%2fdnd cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@hello-pangea%2fdnd 1402ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@hello-pangea%2fdnd set size:undefined disposed:false
+18 silly fetch manifest react@^18.2.0
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 1051ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+22 silly fetch manifest react-dom@^18.2.0
+23 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react-dom 215ms (cache updated)
+25 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+26 silly placeDep ROOT @hello-pangea/dnd@18.0.1 OK for: dynamic-form-builder@0.0.0 want: *
+27 silly fetch manifest @babel/runtime@^7.26.7
+28 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+29 silly fetch manifest css-box-model@^1.2.1
+30 silly packumentCache full:https://registry.npmjs.org/css-box-model cache-miss
+31 silly fetch manifest raf-schd@^4.0.3
+32 silly packumentCache full:https://registry.npmjs.org/raf-schd cache-miss
+33 silly fetch manifest react-redux@^9.2.0
+34 silly packumentCache full:https://registry.npmjs.org/react-redux cache-miss
+35 silly fetch manifest redux@^5.0.1
+36 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/react-redux 74ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/react-redux set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/redux 92ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/redux set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/raf-schd 324ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/raf-schd set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/css-box-model 331ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/css-box-model set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 421ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+47 silly fetch manifest @types/react@^18.2.25 || ^19
+48 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/@types%2freact 103ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+51 silly fetch manifest react@^18.0.0 || ^19.0.0
+52 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/react 23ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/react set size:6621771 disposed:false
+55 silly placeDep ROOT @babel/runtime@7.29.2 OK for: @hello-pangea/dnd@18.0.1 want: ^7.26.7
+56 silly placeDep ROOT css-box-model@1.2.1 OK for: @hello-pangea/dnd@18.0.1 want: ^1.2.1
+57 silly placeDep ROOT raf-schd@4.0.3 OK for: @hello-pangea/dnd@18.0.1 want: ^4.0.3
+58 silly placeDep ROOT react-redux@9.2.0 OK for: @hello-pangea/dnd@18.0.1 want: ^9.2.0
+59 silly placeDep ROOT redux@5.0.1 OK for: @hello-pangea/dnd@18.0.1 want: ^5.0.1
+60 silly fetch manifest tiny-invariant@^1.0.6
+61 silly packumentCache full:https://registry.npmjs.org/tiny-invariant cache-miss
+62 silly fetch manifest @types/use-sync-external-store@^0.0.6
+63 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store cache-miss
+64 silly fetch manifest use-sync-external-store@^1.4.0
+65 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store 181ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fuse-sync-external-store 499ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store set size:undefined disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/tiny-invariant 600ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/tiny-invariant set size:undefined disposed:false
+72 silly placeDep ROOT tiny-invariant@1.3.3 OK for: css-box-model@1.2.1 want: ^1.0.6
+73 silly fetch manifest react@^18.0 || ^19
+74 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/react 24ms (cache hit)
+76 silly packumentCache full:https://registry.npmjs.org/react set size:6621771 disposed:false
+77 silly placeDep ROOT @types/use-sync-external-store@0.0.6 OK for: react-redux@9.2.0 want: ^0.0.6
+78 silly placeDep ROOT use-sync-external-store@1.6.0 OK for: react-redux@9.2.0 want: ^1.4.0
+79 silly reify moves {}
+80 silly audit bulk request {
+80 silly audit   '@babel/code-frame': [ '7.29.0' ],
+80 silly audit   '@babel/compat-data': [ '7.29.0' ],
+80 silly audit   '@babel/core': [ '7.29.0' ],
+80 silly audit   '@babel/generator': [ '7.29.1' ],
+80 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+80 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+80 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+80 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+80 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+80 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+80 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+80 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+80 silly audit   '@babel/helpers': [ '7.29.2' ],
+80 silly audit   '@babel/parser': [ '7.29.2' ],
+80 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+80 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+80 silly audit   '@babel/template': [ '7.28.6' ],
+80 silly audit   '@babel/traverse': [ '7.29.0' ],
+80 silly audit   '@babel/types': [ '7.29.0' ],
+80 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+80 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+80 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+80 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+80 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+80 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+80 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+80 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+80 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+80 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+80 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+80 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+80 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+80 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+80 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+80 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+80 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-android-arm64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.2' ],
+80 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.2' ],
+80 silly audit   '@types/babel__core': [ '7.20.5' ],
+80 silly audit   '@types/babel__generator': [ '7.27.0' ],
+80 silly audit   '@types/babel__template': [ '7.4.4' ],
+80 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+80 silly audit   '@types/estree': [ '1.0.8' ],
+80 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+80 silly audit   'ansi-regex': [ '5.0.1' ],
+80 silly audit   'ansi-styles': [ '4.3.0' ],
+80 silly audit   asynckit: [ '0.4.0' ],
+80 silly audit   axios: [ '1.15.2' ],
+80 silly audit   'baseline-browser-mapping': [ '2.10.20' ],
+80 silly audit   browserslist: [ '4.28.2' ],
+80 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+80 silly audit   'caniuse-lite': [ '1.0.30001788' ],
+80 silly audit   chalk: [ '4.1.2' ],
+80 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+80 silly audit   cliui: [ '8.0.1' ],
+80 silly audit   'color-convert': [ '2.0.1' ],
+80 silly audit   'color-name': [ '1.1.4' ],
+80 silly audit   'combined-stream': [ '1.0.8' ],
+80 silly audit   concurrently: [ '9.2.1' ],
+80 silly audit   'convert-source-map': [ '2.0.0' ],
+80 silly audit   debug: [ '4.4.3' ],
+80 silly audit   'delayed-stream': [ '1.0.0' ],
+80 silly audit   'dunder-proto': [ '1.0.1' ],
+80 silly audit   'electron-to-chromium': [ '1.5.340' ],
+80 silly audit   'emoji-regex': [ '8.0.0' ],
+80 silly audit   'es-define-property': [ '1.0.1' ],
+80 silly audit   'es-errors': [ '1.3.0' ],
+80 silly audit   'es-object-atoms': [ '1.1.1' ],
+80 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+80 silly audit   esbuild: [ '0.21.5' ],
+80 silly audit   escalade: [ '3.2.0' ],
+80 silly audit   'follow-redirects': [ '1.16.0' ],
+80 silly audit   'form-data': [ '4.0.5' ],
+80 silly audit   fsevents: [ '2.3.3' ],
+80 silly audit   'function-bind': [ '1.1.2' ],
+80 silly audit   gensync: [ '1.0.0-beta.2' ],
+80 silly audit   'get-caller-file': [ '2.0.5' ],
+80 silly audit   'get-intrinsic': [ '1.3.0' ],
+80 silly audit   'get-proto': [ '1.0.1' ],
+80 silly audit   gopd: [ '1.2.0' ],
+80 silly audit   'has-flag': [ '4.0.0' ],
+80 silly audit   'has-symbols': [ '1.1.0' ],
+80 silly audit   'has-tostringtag': [ '1.0.2' ],
+80 silly audit   hasown: [ '2.0.3' ],
+80 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+80 silly audit   'js-tokens': [ '4.0.0' ],
+80 silly audit   jsesc: [ '3.1.0' ],
+80 silly audit   json5: [ '2.2.3' ],
+80 silly audit   'loose-envify': [ '1.4.0' ],
+80 silly audit   'lru-cache': [ '5.1.1' ],
+80 silly audit   'lucide-react': [ '0.368.0' ],
+80 silly audit   'math-intrinsics': [ '1.1.0' ],
+80 silly audit   'mime-db': [ '1.52.0' ],
+80 silly audit   'mime-types': [ '2.1.35' ],
+80 silly audit   ms: [ '2.1.3' ],
+80 silly audit   nanoid: [ '3.3.11' ],
+80 silly audit   'node-releases': [ '2.0.37' ],
+80 silly audit   picocolors: [ '1.1.1' ],
+80 silly audit   postcss: [ '8.5.10' ],
+80 silly audit   'proxy-from-env': [ '2.1.0' ],
+80 silly audit   react: [ '18.3.1' ],
+80 silly audit   'react-dom': [ '18.3.1' ],
+80 silly audit   'react-refresh': [ '0.17.0' ],
+80 silly audit   'require-directory': [ '2.1.1' ],
+80 silly audit   rollup: [ '4.60.2' ],
+80 silly audit   rxjs: [ '7.8.2' ],
+80 silly audit   scheduler: [ '0.23.2' ],
+80 silly audit   semver: [ '6.3.1' ],
+80 silly audit   'shell-quote': [ '1.8.3' ],
+80 silly audit   'source-map-js': [ '1.2.1' ],
+80 silly audit   'string-width': [ '4.2.3' ],
+80 silly audit   'strip-ansi': [ '6.0.1' ],
+80 silly audit   'tree-kill': [ '1.2.2' ],
+80 silly audit   tslib: [ '2.8.1' ],
+80 silly audit   'update-browserslist-db': [ '1.2.3' ],
+80 silly audit   vite: [ '5.4.21' ],
+80 silly audit   'wrap-ansi': [ '7.0.0' ],
+80 silly audit   y18n: [ '5.0.8' ],
+80 silly audit   yallist: [ '3.1.1' ],
+80 silly audit   yargs: [ '17.7.2' ],
+80 silly audit   'yargs-parser': [ '21.1.1' ],
+80 silly audit   '@hello-pangea/dnd': [ '18.0.1' ],
+80 silly audit   '@babel/runtime': [ '7.29.2' ],
+80 silly audit   'css-box-model': [ '1.2.1' ],
+80 silly audit   'raf-schd': [ '4.0.3' ],
+80 silly audit   'react-redux': [ '9.2.0' ],
+80 silly audit   redux: [ '5.0.1' ],
+80 silly audit   'tiny-invariant': [ '1.3.3' ],
+80 silly audit   '@types/use-sync-external-store': [ '0.0.6' ],
+80 silly audit   'use-sync-external-store': [ '1.6.0' ]
+80 silly audit }
+81 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\fsevents
+82 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\fsevents' ]
+83 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-win32-ia32-msvc
+84 silly reify mark deleted [
+84 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+84 silly reify ]
+85 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-win32-arm64-msvc
+86 silly reify mark deleted [
+86 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+86 silly reify ]
+87 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-openharmony-arm64
+88 silly reify mark deleted [
+88 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-openharmony-arm64'
+88 silly reify ]
+89 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-openbsd-x64
+90 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-openbsd-x64' ]
+91 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-x64-musl
+92 silly reify mark deleted [
+92 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-x64-musl'
+92 silly reify ]
+93 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-x64-gnu
+94 silly reify mark deleted [
+94 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+94 silly reify ]
+95 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-s390x-gnu
+96 silly reify mark deleted [
+96 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+96 silly reify ]
+97 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-riscv64-musl
+98 silly reify mark deleted [
+98 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+98 silly reify ]
+99 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-riscv64-gnu
+100 silly reify mark deleted [
+100 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+100 silly reify ]
+101 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-ppc64-musl
+102 silly reify mark deleted [
+102 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+102 silly reify ]
+103 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-ppc64-gnu
+104 silly reify mark deleted [
+104 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+104 silly reify ]
+105 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-loong64-musl
+106 silly reify mark deleted [
+106 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+106 silly reify ]
+107 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-loong64-gnu
+108 silly reify mark deleted [
+108 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+108 silly reify ]
+109 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-arm64-musl
+110 silly reify mark deleted [
+110 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+110 silly reify ]
+111 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-arm64-gnu
+112 silly reify mark deleted [
+112 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+112 silly reify ]
+113 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-arm-musleabihf
+114 silly reify mark deleted [
+114 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+114 silly reify ]
+115 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-linux-arm-gnueabihf
+116 silly reify mark deleted [
+116 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+116 silly reify ]
+117 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-freebsd-x64
+118 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+119 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-freebsd-arm64
+120 silly reify mark deleted [
+120 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-freebsd-arm64'
+120 silly reify ]
+121 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-darwin-x64
+122 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-darwin-x64' ]
+123 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-darwin-arm64
+124 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+125 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-android-arm64
+126 silly reify mark deleted [
+126 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-android-arm64'
+126 silly reify ]
+127 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@rollup\rollup-android-arm-eabi
+128 silly reify mark deleted [
+128 silly reify   'C:\\projects\\Dynamic\\node_modules\\@rollup\\rollup-android-arm-eabi'
+128 silly reify ]
+129 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\win32-ia32
+130 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\win32-ia32' ]
+131 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\win32-arm64
+132 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\win32-arm64' ]
+133 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\sunos-x64
+134 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\sunos-x64' ]
+135 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\openbsd-x64
+136 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\openbsd-x64' ]
+137 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\netbsd-x64
+138 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\netbsd-x64' ]
+139 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-x64
+140 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-x64' ]
+141 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-s390x
+142 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-s390x' ]
+143 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-riscv64
+144 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-riscv64' ]
+145 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-ppc64
+146 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-ppc64' ]
+147 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-mips64el
+148 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-mips64el' ]
+149 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-loong64
+150 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-loong64' ]
+151 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-ia32
+152 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-ia32' ]
+153 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-arm64
+154 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-arm64' ]
+155 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\linux-arm
+156 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\linux-arm' ]
+157 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\freebsd-x64
+158 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\freebsd-x64' ]
+159 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\freebsd-arm64
+160 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\freebsd-arm64' ]
+161 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\darwin-x64
+162 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\darwin-x64' ]
+163 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\darwin-arm64
+164 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\darwin-arm64' ]
+165 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\android-x64
+166 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\android-x64' ]
+167 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\android-arm64
+168 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\android-arm64' ]
+169 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\android-arm
+170 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\android-arm' ]
+171 verbose reify failed optional dependency C:\projects\Dynamic\node_modules\@esbuild\aix-ppc64
+172 silly reify mark deleted [ 'C:\\projects\\Dynamic\\node_modules\\@esbuild\\aix-ppc64' ]
+173 silly tarball no local data for @types/use-sync-external-store@https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz. Extracting by manifest.
+174 silly tarball no local data for tiny-invariant@https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz. Extracting by manifest.
+175 silly tarball no local data for use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz. Extracting by manifest.
+176 silly tarball no local data for react-redux@https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz. Extracting by manifest.
+177 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz. Extracting by manifest.
+178 silly tarball no local data for redux@https://registry.npmjs.org/redux/-/redux-5.0.1.tgz. Extracting by manifest.
+179 silly tarball no local data for @hello-pangea/dnd@https://registry.npmjs.org/@hello-pangea/dnd/-/dnd-18.0.1.tgz. Extracting by manifest.
+180 silly tarball no local data for css-box-model@https://registry.npmjs.org/css-box-model/-/css-box-model-1.2.1.tgz. Extracting by manifest.
+181 silly tarball no local data for raf-schd@https://registry.npmjs.org/raf-schd/-/raf-schd-4.0.3.tgz. Extracting by manifest.
+182 http fetch GET 200 https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.3.3.tgz 90ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/raf-schd/-/raf-schd-4.0.3.tgz 145ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/css-box-model/-/css-box-model-1.2.1.tgz 154ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz 173ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/redux/-/redux-5.0.1.tgz 248ms (cache miss)
+187 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 289ms
+188 silly audit report {
+188 silly audit report   esbuild: [
+188 silly audit report     {
+188 silly audit report       id: 1102341,
+188 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+188 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+188 silly audit report       severity: 'moderate',
+188 silly audit report       vulnerable_versions: '<=0.24.2',
+188 silly audit report       cwe: [Array],
+188 silly audit report       cvss: [Object]
+188 silly audit report     }
+188 silly audit report   ],
+188 silly audit report   vite: [
+188 silly audit report     {
+188 silly audit report       id: 1116229,
+188 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+188 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+188 silly audit report       severity: 'moderate',
+188 silly audit report       vulnerable_versions: '<=6.4.1',
+188 silly audit report       cwe: [Array],
+188 silly audit report       cvss: [Object]
+188 silly audit report     }
+188 silly audit report   ]
+188 silly audit report }
+189 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+190 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/vite 52ms (cache revalidated)
+192 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2234939 disposed:false
+193 http fetch GET 200 https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz 398ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz 627ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/esbuild 644ms (cache revalidated)
+196 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:885757 disposed:false
+197 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 1099ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 619ms (cache revalidated)
+200 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react set size:112470 disposed:false
+201 http fetch GET 200 https://registry.npmjs.org/@hello-pangea/dnd/-/dnd-18.0.1.tgz 2142ms (cache miss)
+202 silly ADD node_modules/use-sync-external-store
+203 silly ADD node_modules/@types/use-sync-external-store
+204 silly ADD node_modules/tiny-invariant
+205 silly ADD node_modules/redux
+206 silly ADD node_modules/react-redux
+207 silly ADD node_modules/raf-schd
+208 silly ADD node_modules/css-box-model
+209 silly ADD node_modules/@babel/runtime
+210 silly ADD node_modules/@hello-pangea/dnd
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 verbose cwd C:\projects\Dynamic
+258 verbose os Windows_NT 10.0.26200
+259 verbose node v20.20.2
+260 verbose npm  v10.8.2
+261 verbose exit 0
+262 info ok
